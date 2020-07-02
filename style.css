@@ -9,7 +9,7 @@
 nav
 {
     background-image: url(https://michaeldavidwinery.com/wp-content/themes/michael-david-winery/assets/images/global/pattern1.gif); 
-    height: 5em; 
+    min-height: 100px; 
     font-family: 'Merriweather Sans', sans-serif;
     font-weight: light;
     color: black; 
@@ -25,10 +25,12 @@ nav
 url(https://michaeldavidwinery.com/wp-content/themes/michael-david-winery/assets/images/global/pattern3.gif)
 url(https://michaeldavidwinery.com/wp-content/themes/michael-david-winery/assets/images/global/pattern2.gif) */ 
 
-/*Jumbotron*/ 
-.jumbotron
+/*Bandeau d'accueil*/ 
+.bg
 {
-    color: white; 
-    height: 30em; 
-    margin: 0; 
+    background-image: url(https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 320px;
 }
