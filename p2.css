@@ -1,0 +1,16 @@
+*
+{
+    margin: 0;
+    padding: 0; 
+}
+
+.title
+{
+    font-size: 5em; 
+}
+
+.border
+{
+    border-top: 50px dotted pink; 
+    margin-top: 50px; 
+}
