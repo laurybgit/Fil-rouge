@@ -2,9 +2,11 @@
 {
     margin: 0; 
     padding: 0; 
+    text-align: justify;
 }
 
-/* Page d'accueil, général */  
+/* ---------------------------------------P1 - ACCUEIL ---------------------------------------*/ 
+
 /* Nav */ 
 nav
 {
@@ -25,7 +27,7 @@ nav
 url(https://michaeldavidwinery.com/wp-content/themes/michael-david-winery/assets/images/global/pattern3.gif)
 url(https://michaeldavidwinery.com/wp-content/themes/michael-david-winery/assets/images/global/pattern2.gif) */ 
 
-/*Bandeau d'accueil*/ 
+/*Bandeau d'accueil P1*/ 
 .bg
 {
     background-image: url(https://images.unsplash.com/photo-1464274582105-6b442eadde5e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
@@ -35,10 +37,10 @@ url(https://michaeldavidwinery.com/wp-content/themes/michael-david-winery/assets
     min-height: 500px;
 }
 
-/*Blocs de texte */ 
-
+/*Blocs de texte */
 .imgwidth
 {
     max-width: 250px;
-}
-/*Permet à l'image insérée de ne jamais dépasser une certaine largeur*/ 
+} /*Permet à l'image insérée de ne jamais dépasser une certaine largeur*/ 
+
+/* ---------------------------------------P2 - DÉFINITIONS ---------------------------------------*/ 
