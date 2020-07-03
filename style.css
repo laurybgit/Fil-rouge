@@ -28,9 +28,17 @@ url(https://michaeldavidwinery.com/wp-content/themes/michael-david-winery/assets
 /*Bandeau d'accueil*/ 
 .bg
 {
-    background-image: url(https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-image: url(https://images.unsplash.com/photo-1464274582105-6b442eadde5e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    min-height: 320px;
+    min-height: 500px;
 }
+
+/*Blocs de texte */ 
+
+.imgwidth
+{
+    max-width: 250px;
+}
+/*Permet à l'image insérée de ne jamais dépasser une certaine largeur*/ 
