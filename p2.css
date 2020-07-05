@@ -13,3 +13,14 @@
 {
     border-top: 50px dotted pink; 
 }
+
+.rainbow
+{
+    width: 200px; 
+}
+
+.bg-pink
+{
+    background-color: pink;
+    padding: 50px;
+}

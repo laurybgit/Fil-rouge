@@ -8,42 +8,97 @@
     <!--Mon CSS-->
     <link rel="stylesheet" href="style.css">
 
-    <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;800&display=swap" rel="stylesheet">   
+    <!--Google Fonts--> 
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <title>Projet fil rouge</title>
+    <title>Projet Autos</title>
   </head>
   <body>
     <div class="container-fluid">
 
 <!-- Header-->
-<!--Navbar-->
-  <div>
-    <nav class="navbar navbar-dark justify-content-between">
-      <div>L'OTISSME</div>
-      <ul class="nav">
-        <li class="nav-item"><a class="nav-link active" href="#">Accueil</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">À propos</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Contact</a> </li>
-      </ul>    
-    </nav>             
-  </div>    
+<!--Navbar si ordi ou tablette-->
+<div class=" d-none d-sm-block">
+<!--Attention : bien mettre le responsive sur la div car ne marche plus sinon--> 
+  <nav class="navbar navbar-dark justify-content-between">
+    <div>Logo et titre</div>
+    <ul class="nav">
+      <li class="nav-item"><a class="nav-link active" href="#">Accueil</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Comprendre</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Ressources</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">À propos</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Contact</a> </li>
+    </ul>  
+  </nav>            
+</div>  
+
+<!--Nabvar si mobile-->
+<div class="topnav d-block d-sm-none">
+  <a href="" class="">Logo</a>
+  <div id="myLinks">
+    <a href="">Comprendre</a>
+    <a href="">Ressources</a>
+    <a href="">À propos</a>
+    <a href="">Contact</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div> 
+    
 <!--Bandeau d'accueil-->
 <div class="jumbotron jumbotron-fluid bg">
   <div class="container">
-    <h1 class=>TOUT SAVOIR SUR L'AUTISME !</h1>
-    <h2>Vous vous interrogez sur l'autisme ?</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nam illum aliquam voluptate autem eligendi 
-  eos incidunt veritatis tempora fuga. Animi laudantium perspiciatis eaque rem. Sapiente totam quis nam ad.</p>
+    <!--ici mettre logo-->
+    <h1>Projet Autos</h1>
+    <p>Changer de regard sur l'autisme</p>
+    <p class="titalic">autisme : du grec αὐτός, soi-même</p>
   </div>
   </div>
   <!--HEnd-->
 
 <main>
+  
+<!--Introduction-->
+<article>
+  <div class="row">
+    <div class="col-12"><div class="scroll"><h2>Vous n'y connaissez rien à l'autisme ?</h2>
+      <p>Ne vous inquiétez pas : nous non plus ! Depuis les premières recherches au milieu du siècle dernier, jusqu'à aujourd'hui, l'autisme provoque 
+        fascination ou rejet, et fait l'objet de plusieurs théories (souvent farfelues !) sans toutefois parvenir à toucher du doigt une réalité globale de 
+        l'autisme. 
+
+        Ne rien y comprendre, c'est donc tout à fait normal ! À ce jour, les personnes autistes, ainsi que leur entourage, se retrouvent souvent démuni·e·s 
+        face à la méconnaissance et la difficulté de demander des aménagements et offrir une vie épanouie et autonome pour les concerné·e·s. 
+
+        Ce site n'a donc aucun but de vous donner des solutions toutes faites (et il vous recommande même de vous en méfier !), mais simplement de vous 
+        proposer un autre regard sur l'autisme. Cet autre regard, peut-être, vous aidera à trouver des solutions pour mieux comprendre et écouter une 
+        personne autiste ou mieux vivre autiste, si vous êtes vous-même concerné·e. 
+
+        Mais, d'abord : pourquoi ce trouble neurologique est-il si diabolisé ? D'où viennent les nombreuses théories sur l'autisme, encore véhiculées 
+        aujourd'hui ?
+        Être autiste est évidemment un handicap au quotidien qui n'est pas toujours facile à gérer. Mais les nombreux préjugés et "solutions" proposées aux 
+        personnes autistes, loin de toujours les aider, occasionnent leur lot de souffrances. On peut noter que cette situation n'est d'ailleurs pas propre à 
+        l'autisme, mais à de nombreux troubles cognitifs et mentaux. 
+
+        Alors, pour mieux comprendre, commençons par un petit tour des théories les plus farfelues sur l'autisme. 
+      </p></div>
+
+      <p>Si vous souhaitez vous rendre directement sur les informations et ressources sur l'autisme, c'est par ici :</p>
+
+        <div class="row">
+          <div class="col-6">
+          <p>bouton 1</p>
+          </div>
+          <div class="col-6">
+          <p>bouton 2</p>
+          </div>
+      </div>
+
+    </div>
+  </div>
+</article>
 
 <!--Blocs explicatifs 1--> <!-- Mettre le même principe à chaque bloc pour le responsive-->
 <article>
@@ -82,11 +137,11 @@
 <!--Blocs explicatifs 1End-->
 
 <!--Introduction deuxième partie-->
-<h2>GUÉRIR de l'autisme !</h2>
-  <figure><img src="" alt="label Dollarz™">
-  <figcaption>Une légende en-dessous</figcaption>
-  </figure>
-<p>Dans cette section, nous vous proposons les méthodes en vogue, toutes certifiées Dollarz™, notre label qualité.</p>
+<h3>Guérir de l'autisme : quelle idée !</h3>
+<p>L'autisme étant un trouble neurologique et non-pas une maladie, l'idée d'une "guérison" dans le sens le plus strict du terme est peu à peu 
+  abandonnée. On se concentre désormais sur des pratiques visant à éradiquer l'autisme "à la source", ou bien à aider les personnes autistes 
+  au quotidien. Enfin, par "aider", on entend surtout trop souvent "rendre moins autiste", ce qui est en pratique... impossible. 
+</p>
 <!--I2End-->
 
 <!--Blocs explicatifs 2-->
@@ -96,17 +151,28 @@ l'autisme. Des travaux très laborieux étant donnés que l'autisme est un cockt
 directement des dons de familles concernées par l'autisme. Mais il serait vain de consacrer ces budgets à l'épanouissement ou encore à l'autonomie et 
 l'accès à une vie dans la société pour les personnes autistes ! Rechercher des causes génétiques, sans succès, depuis des dizaines d'années, est bien 
 plus important. 
-<em>Ce qui est principalement questionné ici, c'est : toute cette recherche améliore-t-elle la vie des personnes autistes ?</em>
+<em>Ce qui est principalement questionné ici, c'est : toute cette recherche améliore-t-elle actuellement la vie des personnes autistes ?</em>
 </p>
 </article>
 
-<article><h3>La thérapie ABA : vaincre l'autisme par la punition !</h3> 
+<article><h3>La thérapie ABA : cachez cet autiste que je ne saurais voir !</h3> 
  <p>Directement inspirée des thérapies de conversion pour les personnes homosexuelles, la thérapie ABA consiste à mettre en place un travail constant 
-  (environ 35 à 40h par semaine) avec l'enfant autiste afin de lui apprendre à être comme les autres. Bien que certaines thérapies soient concentrées 
-  sur le fait d'apprendre des choses essentielles à l'enfant (avec des résultats questionnables, et des traumatismes bien présents), la grande majorité
-  de celles-ci consacrent un temps énormissime à l'apprentissage des codes sociaux. On se demande bien si le but est de ne plus paraître autiste ou bien 
-  d'aider la personne autiste. Nous, on a une petite idée.</p>
-<p><em>La thérapie ABA fait l'objet d'une grande controverse : perçue</em></p>
+  (environ 35 à 40h par semaine) avec l'enfant autiste qui vise globalement à rendre l'enfant "moins autiste" en supprimant ses manifestations
+  les plus visibles de l'autisme (par exemple, forcer un enfant à faire des calins quand bien même le toucher serait douloureux pour lui). Le terme 
+  ABA regroupe de nombreuses méthodes d'intervention : celles qui sont ici critiquées sont celles qui sont éthiquements questionnables. 
+  Pour s'interroger sur l'éthique d'une méthode dite ABA, on peut se questionner : priverait-on de son jouet préféré un enfant neurotypique 
+  qui n'aime pas un type d'aliment particulier jusqu'à ce qu'il en mange ? Le couperait-on de ses intérêts nécessaire à son développement et son équilibre
+  mental sous prétexte que cela l'empêche de socialiser ou que cet intérêt est considéré comme inutile ? Supprimerait-on une pratique rassurante (comme
+  sucer son pouce à un âge tout à fait approprié) afin qu'il paraisse "plus normal" ? 
+
+</p>
+<p><em>La thérapie ABA fait l'objet d'une grande controverse, car son but est bien trop souvent de gommer les traits autistiques de l'enfant, plutôt que de 
+  l'aider à se développer. L'autisme consiste en un déficit de communication, des intérêts spécifiques, et des comportements répétitifs, ainsi qu'une 
+  certaine "rigidité" mentale. Penser que l'on pourra changer l'enfant ou effacer ces comportements est absurde : on n'arrête jamais d'être autiste ! La meilleure
+  intervention est celle qui prend en compte les traits autistiques d'une personne afin de l'aider à s'épanouir. On peut par exemple s'appuyer sur les 
+  intérêts de celle-ci afin de lui proposer des solutions éducatives personnalisées. On peut aussi se demander l'intérêt de faire cesser un comportement 
+  qui ne blesse personne, comme par exemple un balancement répétitif, car il "fait honte" parce qu'il diffère de la norme. 
+</em></p>
 </article>
 
 
@@ -123,9 +189,7 @@ comme le recommande Andrew Wakefield, voilà des solutions scientifiques et prou
 
 
 <!--Lien vers les pages-->
-<p>Vous l'aurez compris, depuis la "découverte" de l'autisme, on tâtonne encore... pas mal. Mais, qu'est-ce que c'est, l'autisme ?
-  Lien vers une page sur l'autisme "en gros". Parler des caractéristiques communes, mais aussi des problèmes de diagnostic, des profils diversifiés... 
-  (gif Sheldon Cooper)
+<p>
 </p>
 </main>
 
@@ -136,6 +200,17 @@ comme le recommande Andrew Wakefield, voilà des solutions scientifiques et prou
 
 
     <!-- Optional JavaScript -->
+    <!-- Truc qui marche pour le burger mais qu'on sait pas pourquoi -->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
