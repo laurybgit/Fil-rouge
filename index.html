@@ -54,10 +54,10 @@
   </div>
 
 <!--Bandeau d'accueil-->
-<div class="jumbotron jumbotron-fluid bg">
+<div class="jumbotron" id="jumbo">
   <div class="container">
     <!--ici mettre logo-->
-    <img src="" alt="">
+    <img class="img-fluid" id="logo" src="img/autos-sansmarge.png" alt="logo">
     <h1>Projet Autos</h1>
     <p>Changer de regard sur l'autisme</p>
     <p class="titalic">autisme : du grec αὐτός, soi-même</p>
@@ -66,49 +66,50 @@
   <!--HEnd-->
 
 <main>
-  
+
 <!--Introduction-->
-<article>
+<article class="pink rounded">
   <div class="row justify-content-center mx-auto">
-    <div class="col-12"><h2>Vous n'y connaissez rien à l'autisme ?</h2>
-      <p>Ne vous inquiétez pas : nous non plus ! Depuis les premières recherches au milieu du siècle dernier, jusqu'à aujourd'hui, l'autisme provoque 
+    <div class="col-xl-9"><h2>Vous n'y connaissez rien à l'autisme ? Nous non plus !</h2>
+      <p>Depuis les premières recherches au milieu du siècle dernier, jusqu'à aujourd'hui, l'autisme provoque 
         fascination ou rejet, et fait l'objet de plusieurs théories (souvent farfelues !) sans toutefois parvenir à toucher du doigt une réalité globale de 
         l'autisme. 
 
-        Ne rien y comprendre, c'est donc tout à fait normal ! À ce jour, les personnes autistes, ainsi que leur entourage, se retrouvent souvent démuni·e·s 
-        face à la méconnaissance et la difficulté de demander des aménagements et offrir une vie épanouie et autonome pour les concerné·e·s. 
+      <p>Ne rien y comprendre, c'est donc tout à fait normal ! À ce jour, les personnes autistes, ainsi que leur entourage, se retrouvent souvent démuni·e·s 
+      face à la méconnaissance et la difficulté de demander des aménagements et offrir une vie épanouie et autonome pour les concerné·e·s.</p>
 
-        Ce site n'a donc aucun but de vous donner des solutions toutes faites (et il vous recommande même de vous en méfier !), mais simplement de vous 
-        proposer un autre regard sur l'autisme. Cet autre regard, peut-être, vous aidera à trouver des solutions pour mieux comprendre et écouter une 
-        personne autiste ou mieux vivre autiste, si vous êtes vous-même concerné·e. 
+      <p>Ce site n'a donc pas la prétention de vous donner des solutions toutes faites (et il vous recommande même de vous en méfier !), mais simplement de vous 
+      proposer un autre regard sur l'autisme. Cet autre regard, peut-être, vous aidera à trouver des solutions pour mieux comprendre et écouter une 
+      personne autiste ou mieux vivre autiste, si vous êtes vous-même concerné·e.</p> 
 
-        Mais, d'abord : pourquoi ce trouble neurologique est-il si diabolisé ? D'où viennent les nombreuses théories sur l'autisme, encore véhiculées 
-        aujourd'hui ?
-        Être autiste est évidemment un handicap au quotidien qui n'est pas toujours facile à gérer. Mais les nombreux préjugés et "solutions" proposées aux 
-        personnes autistes, loin de toujours les aider, occasionnent leur lot de souffrances. On peut noter que cette situation n'est d'ailleurs pas propre à 
-        l'autisme, mais à de nombreux troubles cognitifs et mentaux. 
+      <p>Mais, d'abord : pourquoi ce trouble neurologique est-il si diabolisé ? D'où viennent les nombreuses théories sur l'autisme, encore véhiculées 
+      aujourd'hui ? Être autiste est évidemment un handicap au quotidien qui n'est pas toujours facile à gérer. Mais les nombreux préjugés et "solutions" proposées aux 
+      personnes autistes, loin de toujours les aider, occasionnent leur lot de souffrances. On peut noter que cette situation n'est d'ailleurs pas propre à 
+      l'autisme, mais à de nombreux troubles cognitifs et mentaux.</p>
 
-        Alors, pour mieux comprendre, commençons par un petit tour des théories les plus farfelues sur l'autisme.</p> 
+      <p>Alors, pour mieux comprendre, commençons par un petit tour des théories les plus farfelues sur l'autisme.</p> 
 
       <p>Si vous souhaitez vous rendre directement sur les informations et ressources sur l'autisme, c'est par ici :</p>
 
       <!--Boutons pour les autres pages--> 
-      <div class="row">
-        <div class="col-6">
-        <p>bouton 1</p>
-        </div>
-        <div class="col-6">
-        <p>bouton 2</p>
-        </div>
+      <div class="row justify-content-center mx-auto">
+          <div class="col-6 text-center">
+          <p class="text-center">bouton 1</p>
+          </div>
+
+          <div class="col-6 text-center">
+          <p>bouton 2</p>
+          </div>
       </div>
       
       </div>
     </div>
 </article>
 
-<!--Blocs explicatifs 1--> <!-- Mettre le même principe à chaque bloc pour le responsive-->
+<!--Blocs explicatifs--> 
+<!-- Mettre le même principe à chaque bloc pour le responsive-->
 <article>
-<div class="row justify-content-center mx-auto mt-2 border-top">
+<div class="row justify-content-center mx-auto mt-2">
   <div class="col-xl-12 mt-3">
       <h3 class="text-left mb-3">La théorie préférée des psychanalystes : la mère frigidaire !</h3>
     <div class="row">
@@ -128,7 +129,7 @@
       </div>
       <div class="col-xl-3 col-lg-3 col-12">
       <figure class="figure my-2 my-sm-2 my-md-2">
-      <img src="img/fridgesalmonmargin2.png" class="figure-img img-fluid" alt="...">
+      <img src="img/fridgesalmonmargin2.png" class="figure-img" id="frigo" alt="un frigo">
       <figcaption class="figure-caption text-center">Une mère frigidaire</figcaption>
       </figure>
       </div>
@@ -138,94 +139,82 @@
 </article>
 
 <article>
-  <div class="row justify-content-center mx-auto mt-2 border-top">
-    <div class="col-xl-12 mt-3">
-        <h3 class="text-left mb-3">La distinction entre les différents types d'autisme</h3>
-    <div class="row">
-      <div class="col-xl-9 col-12">
-        <p>Le terme de spectre autistique remplace depuis peu les notions d'autisme "sévère" ou "léger", "typique", "Asperger", "à haut ou bas niveau
-          de fonctionnement". La distinction arbitraire entre l'autiste savant et l'autiste incapable est cependant toujours très présente. On oppose
-          la plupart du temps complètement ces deux types d'autisme, comme s'ils n'avaient rien à voir l'un avec l'autre. Les droits et les adaptations 
-          données aux personnes autistes diffèrent aussi malheureusement selon le type d'étiquette dont elles bénéficient. 
-        </p>
+<div class="row justify-content-center mx-auto mt-2 border-top">
+  <div class="col-xl-12 mt-3">
+    <h3 class="text-left mb-3">La distinction entre les différents types d'autisme</h3>
+  <div class="row">
+      <div class="col-xl-12 col-12">
+      <p>Le terme de spectre autistique remplace depuis peu les notions d'autisme "sévère" ou "léger", "typique", "Asperger", "à haut ou bas niveau
+      de fonctionnement". La distinction arbitraire entre l'autiste savant et l'autiste incapable est cependant toujours très présente. On oppose
+      la plupart du temps complètement ces deux types d'autisme, comme s'ils n'avaient rien à voir l'un avec l'autre. Les droits et les adaptations 
+      données aux personnes autistes diffèrent aussi malheureusement selon le type d'étiquette dont elles bénéficient.</p>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-xl-9 col-12">
-        <p><em>rappelons tout de même que cette distinction est née directement de la volonté du régime nazi de sélectionner les personnes utiles
-        à la société des autres. Les personnes autistes sont des personnes, quelles que soient leurs capacités. Elles méritent une vie autonome, épanouie, et 
-        d'avoir les mêmes droits que tous et toutes.</em></p>
-      </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-xl-3">
+      <figure class="figure my-2 my-sm-2 my-md-2">
+        <img src="https://journalduneasperger.files.wordpress.com/2017/10/20228679_2179510529039411_2085160216311121918_n.jpg" class="figure-img" id="spectrum" alt="autism spectrum">
+        <figcaption class="figure-caption text-center my-2">Le spectre autistique, par Rebecca Burgess</figcaption>
+      </figure>
     </div>
   </div>
-</div>
+  </div>
+    <div class="grey">
+    <div class="col-xl-12 col-12">
+    <p>On ne juge pas si une personne est malvoyante ou non sur sa capacité à se déplacer dans la rue ! Pourtant, on estime encore qu'il y a 
+    un degré d'autisme défini selon ce que la personne est capable ou non de faire. L'évaluation même de cette capacité est biaisée car elle n'est 
+    pas adaptée aux personnes autistes (le test de QI en est l'un des nombreux exemples). La base de cette classification est d'ailleurs
+    née de la volonté du régime nazi de garder en vie, parmi les personnes handicapées, celles qui pouvaient être utiles à la société. Cette classification
+    pose une question qui n'est pas propre qu'à l'autisme : dans quelle mesure peut-on justifier d'ôter des droits aux personnes qui dérivent de la norme
+    ou ne disposent pas des mêmes capacités ?</p>
+    </div>
+    </div>
+  </div>
+</article>
+
+<article>
+  <div class="row justify-content-center mx-auto mt-2 border-top">
+    <div class="col-xl-12 mt-3">
+      <h3 class="text-left mb-3">La distinction entre les différents types d'autisme</h3>
+    <div class="row">
+        <div class="col-xl-12 col-12">
+        <p>Le terme de spectre autistique remplace depuis peu les notions d'autisme "sévère" ou "léger", "typique", "Asperger", "à haut ou bas niveau
+        de fonctionnement". La distinction arbitraire entre l'autiste savant et l'autiste incapable est cependant toujours très présente. On oppose
+        la plupart du temps complètement ces deux types d'autisme, comme s'ils n'avaient rien à voir l'un avec l'autre. Les droits et les adaptations 
+        données aux personnes autistes diffèrent aussi malheureusement selon le type d'étiquette dont elles bénéficient.</p>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-xl-3">
+        <figure class="figure my-2 my-sm-2 my-md-2">
+          <img src="https://journalduneasperger.files.wordpress.com/2017/10/20228679_2179510529039411_2085160216311121918_n.jpg" class="figure-img" id="spectrum" alt="autism spectrum">
+          <figcaption class="figure-caption text-center my-2">Le spectre autistique, par Rebecca Burgess</figcaption>
+        </figure>
+      </div>
+    </div>
+    </div>
+      <div class="grey">
+      <div class="col-xl-12 col-12">
+      <p>On ne juge pas si une personne est malvoyante ou non sur sa capacité à se déplacer dans la rue ! Pourtant, on estime encore qu'il y a 
+      un degré d'autisme défini selon ce que la personne est capable ou non de faire. L'évaluation même de cette capacité est biaisée car elle n'est 
+      pas adaptée aux personnes autistes (le test de QI en est l'un des nombreux exemples). La base de cette classification est d'ailleurs
+      née de la volonté du régime nazi de garder en vie, parmi les personnes handicapées, celles qui pouvaient être utiles à la société. Cette classification
+      pose une question qui n'est pas propre qu'à l'autisme : dans quelle mesure peut-on justifier d'ôter des droits aux personnes qui dérivent de la norme
+      ou ne disposent pas des mêmes capacités ?</p>
+      </div>
+      </div>
+    </div>
   </article>
 
-<!--Blocs explicatifs 1End-->
-
-<!--Introduction deuxième partie-->
-<h3>Guérir de l'autisme : quelle idée !</h3>
-<p>L'autisme étant un trouble neurologique et non-pas une maladie, l'idée d'une "guérison" dans le sens le plus strict du terme est peu à peu 
-  abandonnée. On se concentre désormais sur des pratiques visant à éradiquer l'autisme "à la source", ou bien à aider les personnes autistes 
-  au quotidien. Enfin, par "aider", on entend surtout trop souvent "rendre moins autiste", ce qui est en pratique... impossible. 
-</p>
-<!--I2End-->
-
-<!--Blocs explicatifs 2-->
-<article><h3>Allouer des budgets phénoménaux pour la recherche et l'éradiction de l'autisme</h3>
-<p>De nombreuses organisations, comme la très célèbre Autism Speaks aux États-Unis, consacrent des budgets colossaux à la recherche génétique sur 
-l'autisme. Des travaux très laborieux étant donnés que l'autisme est un cocktail génétique extrêmement difficile à démêler. Ces budgets proviennent
-directement des dons de familles concernées par l'autisme. Mais il serait vain de consacrer ces budgets à l'épanouissement ou encore à l'autonomie et 
-l'accès à une vie dans la société pour les personnes autistes ! Rechercher des causes génétiques, sans succès, depuis des dizaines d'années, est bien 
-plus important. 
-<em>Ce qui est principalement questionné ici, c'est : toute cette recherche améliore-t-elle actuellement la vie des personnes autistes ?</em>
-</p>
-</article>
-
-<article><h3>La thérapie ABA : cachez cet autiste que je ne saurais voir !</h3> 
- <p>Directement inspirée des thérapies de conversion pour les personnes homosexuelles, la thérapie ABA consiste à mettre en place un travail constant 
-  (environ 35 à 40h par semaine) avec l'enfant autiste qui vise globalement à rendre l'enfant "moins autiste" en supprimant ses manifestations
-  les plus visibles de l'autisme (par exemple, forcer un enfant à faire des calins quand bien même le toucher serait douloureux pour lui). Le terme 
-  ABA regroupe de nombreuses méthodes d'intervention : celles qui sont ici critiquées sont celles qui sont éthiquements questionnables. 
-  Pour s'interroger sur l'éthique d'une méthode dite ABA, on peut se questionner : priverait-on de son jouet préféré un enfant neurotypique 
-  qui n'aime pas un type d'aliment particulier jusqu'à ce qu'il en mange ? Le couperait-on de ses intérêts nécessaire à son développement et son équilibre
-  mental sous prétexte que cela l'empêche de socialiser ou que cet intérêt est considéré comme inutile ? Supprimerait-on une pratique rassurante (comme
-  sucer son pouce à un âge tout à fait approprié) afin qu'il paraisse "plus normal" ? 
-
-</p>
-<p><em>La thérapie ABA fait l'objet d'une grande controverse, car son but est bien trop souvent de gommer les traits autistiques de l'enfant, plutôt que de 
-  l'aider à se développer. L'autisme consiste en un déficit de communication, des intérêts spécifiques, et des comportements répétitifs, ainsi qu'une 
-  certaine "rigidité" mentale. Penser que l'on pourra changer l'enfant ou effacer ces comportements est absurde : on n'arrête jamais d'être autiste ! La meilleure
-  intervention est celle qui prend en compte les traits autistiques d'une personne afin de l'aider à s'épanouir. On peut par exemple s'appuyer sur les 
-  intérêts de celle-ci afin de lui proposer des solutions éducatives personnalisées. On peut aussi se demander l'intérêt de faire cesser un comportement 
-  qui ne blesse personne, comme par exemple un balancement répétitif, car il "fait honte" parce qu'il diffère de la norme. 
-</em></p>
-</article>
-
-
-<article><h3>La science à votre service !</h3>
-<p>Les bonnes vieilles pratiques médicales prouvées, il n'y a que ça de vrai ! Faire ingurgiter de la javel à son enfant autiste, pratiquer la chélation afin d'ôter 
-les métaux lourds de son organisme (dont l'accumulation serait responsable de l'autisme !) ou bien tout simplement arrêter de vacciner ses enfants 
-comme le recommande Andrew Wakefield, voilà des solutions scientifiques et prouvées qui guérissent ou mieux : préviennent de l'autisme !</p>
-<p><em>Régimes alimentaires "guérisseurs", javel "nettoyante", tout est bon pour enlever l'autisme de l'autiste. 
-  Andrew Wakefield, quant à lui, constate une "épidémie d'autisme" chez les enfants d'informaticien·ne·s de la Silicon Valley. Il en déduit que ces 
-  derniers ont été "contaminés" par les vaccins. À y regarder de plus près, parents et enfants partagent souvent des traits similaires... mais : chut ! 
-  Le petit empire que s'est construit Andrew Wakefield sur sa propagande anti-vaccins ne laisse pas de place à la remise en question. 
-</em></p>
-</article>
-
-
-<!--Lien vers les pages-->
-<p>
-</p>
 </main>
 
 <!--Footer-->
 <footer> </footer>
+
+<!--Fermeture container fluid-->
 </div>
 
-
-
+<!--Autres-->
     <!-- Optional JavaScript -->
     <!-- Truc qui marche pour le burger mais qu'on sait pas pourquoi -->
     <script>

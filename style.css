@@ -55,8 +55,8 @@
   color: #99B898; 
 }
 
-/*Bandeau d'accueil P1*/ 
-.bg
+/*Bandeau d'accueil*/ 
+.jumbotron
 {
     background-image: url(https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
     background-size: cover;
@@ -65,6 +65,47 @@
     width: 100%; 
 }
 
-/*Blocs de texte */
+#logo
+{
+  max-width: 200px; 
+}
 
-/* ---------------------------------------P2 - DÉFINITIONS ---------------------------------------*/ 
+/*Enlève l'espacement entre jumbotron et bloc1*/ 
+#jumbo
+{
+  margin: 0; 
+}
+
+/*Blocs colorés*/ 
+.pink
+{
+  padding-top: 15px; 
+  padding-bottom: 5px; 
+  background-color: #FF847C; 
+  color: white; 
+}
+
+.grey
+{
+  background-color: #F2DFDF; 
+  font-style: italic;
+  padding: 5px 0; 
+}
+
+/*Typographie*/
+h3
+{
+  color: #99B898; 
+  font-weight: bolder;
+} 
+
+/*Ajustements*/ 
+#frigo 
+{
+  width: 400px; 
+}
+
+#spectrum
+{
+  width: 500px; 
+}
