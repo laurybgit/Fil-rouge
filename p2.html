@@ -5,93 +5,108 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Mon CSS-->
-    <link rel="stylesheet" href="p2.css">
+    <!--Mon CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--CSS du burger-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Google Fonts--> 
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Projet Autos</title>
+
   </head>
   <body>
-    <div class="container-fluid text-justify">
-      <!--Navbar-->
-  <div>
-    <nav class="navbar navbar-dark justify-content-between">
-      <div>Logo et titre</div>
-      <ul class="nav">
-        <li class="nav-item"><a class="nav-link active" href="#">Accueil</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">À propos</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Contact</a> </li>
-      </ul>    
-    </nav>             
-  </div>    
-    <!--Intro--> 
+<div class="container-fluid">
+
+    <!-- Header-->
+    <!--Navbar si ordi ou tablette-->
+    <div class=" d-none d-sm-block">
+    <!--Attention : bien mettre le responsive sur la div car ne marche plus sinon--> 
+      <nav class="navbar navbar-dark justify-content-between">
+        <div>Logo et titre</div>
+          <ul class="nav">
+            <li class="nav-item"><a class="nav-link active" href="#">Accueil</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Comprendre</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Ressources</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">À propos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a> </li>
+          </ul>  
+      </nav>            
+    </div>  
+      
+      <!--Nabvar si mobile-->
+    <div class="topnav d-block d-sm-none fixed-top">
+      <a href="" class="active" id="symbol">∞</a>
+      <div id="myLinks">
+        <a href="">Accueil</a>
+        <a href="">Comprendre</a>
+        <a href="">Ressources</a>
+        <a href="">À propos</a>
+        <a href="">Contact</a>
+      </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
+  
+  <div class="container-fluid">
     <div class="row">
-        <div class="col-5 my-5 mx-5"><h1 class="title text-left">Comprendre l'autisme</h1></div>
-    </div>
-
-<main>
-
-    <article><div class="row">
-        <div class="col-xl-12">
-          <h2>Une définition rapide de l'autisme</h2>
-          <p>Plusieurs critères fixes, présents depuis l'enfance, définissent l'autisme :</p>
-        </div>
-        <div class="row">
-          <div class="col-3">1</div><div class="col-8">paragrahe</div>
-        <div class="row">
-          <div class="col-3">1</div><div class="col-8">paragraphe</div>
-        <div class="row">
-          <div class="col-3">1</div><div class="col-8">paragraphe</div>
-        </div>
-      </article>
-
-        <div class="row">
-            <div class="mx-auto my-xl-5">    
-              <figure class="figure">
-              <img src="img/fridgesalmonsmall.png" class="figure-img img-fluid rounded" alt="...">
-              <figcaption class="figure-caption text-center">Une mère frigidaire <br> dans son habitat naturel.</figcaption>
-              </figure>
-          </div>
-        </div>
-
-    <article><div class="row">
-      <div class="col-xl-12">
-        <h2>Obtenir un diagnostic</h2>
-        <p>Plusieurs critères fixes, présents depuis l'enfance, définissent l'autisme :</p>
+      <div class="col-12">
+        <h1>Mais alors, qu'est-ce que c'est, l'autisme ?</h1>
       </div>
     </div>
-    </article> 
+  </div>
 
-    <article><div class="row">
-      <div class="col-xl-12">
-        <h2>Comprendre une personne autiste</h2>
-        <p>Que faire pendant une crise ?</p>
+  <div class="container-fluid mt-5 mx-auto">
+    <div class="row justify-content-start mb-3">
+      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+      <p class="number">1</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas aliquid iste atque tenetur 
+      odit repellendus odio possimus deserunt ut consectetur aperiam aliquam, excepturi qui optio consequatur assumenda? Quae, laudantium exercitationem!
+      </p></div>
+      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+      <p class="number">2</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas aliquid iste atque tenetur 
+      odit repellendus odio possimus deserunt ut consectetur aperiam aliquam, excepturi qui optio consequatur assumenda? Quae, laudantium exercitationem!</p></div>
+      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+      <p class="number">3</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas aliquid iste atque tenetur 
+      odit repellendus odio possimus deserunt ut consectetur aperiam aliquam, excepturi qui optio consequatur assumenda? Quae, laudantium exercitationem!</p></div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-9">
+        <div class="grey" id="p-10">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi sed quas 
+          impedit quod obcaecati autem incidunt in, aspernatur ullam. Asperiores inventore aliquid laborum ut officiis commodi magni sapiente. Voluptates, odit!</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi sed quas 
+          impedit quod obcaecati autem incidunt in, aspernatur ullam. Asperiores inventore aliquid laborum ut officiis commodi magni sapiente. Voluptates, odit!</p>
+        </div>
       </div>
     </div>
-    </article> 
-
-<article>
-  <div class="pink">
-  <div class="row my-5">
-  <div class="col-xl-3 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi praesentium blanditiis 
-    dignissimos et ratione fugiat eius delectus eveniet voluptatum. Dolorum porro sed vitae, at excepturi quos sit provident incidunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi praesentium blanditiis 
-    dignissimos et ratione</div>
-  <div class="col-xl-3">fugiat eius delectus eveniet voluptatum. Dolorum porro sed vitae, at excepturi quos sit provident incidunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi praesentium blanditiis 
-    dignissimos et ratione fugiat eius delectus eveniet voluptatum. Dolorum porro sed vitae, at excepturi quos sit provident incidunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi praesentium blanditiis 
-    dignissimos et ratione fugiat eius delectus eveniet voluptatum. Dolorum porro sed vitae, at excepturi quos sit provident incidunt?</div>
-  <div class="col-xl-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi praesentium blanditiis 
-    dignissimos et ratione fugiat eius delectus eveniet voluptatum. Dolorum porro sed vitae, at excepturi quos sit provident incidunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi praesentium blanditiis 
-    dignissimos et ratione fugiat eius delectus eveniet voluptatum. Dolorum porro sed vitae, at excepturi quos sit provident incidunt?</div>
-  <div class="col-xl-3">
   </div>
-  </div>
-  </div>
-</article>
 
-</main>
-
+<!--Fermeture div-->
 </div>
+    <!--Autres-->    
+    <!-- Truc qui marche pour le burger mais qu'on sait pas pourquoi -->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
