@@ -11,7 +11,7 @@
 
 /* Nav mobile*/ 
 .mobile-container {
-  max-width: 480px;
+  max-width: 500px;
   margin: auto;
   background-color: #ffffff; 
   height: 500px;
@@ -21,7 +21,7 @@
 
 .topnav {
   overflow: hidden;
-  background-color: #464444; 
+  background-color: #ffffff; 
   position: relative;
 }
 
@@ -48,11 +48,18 @@
 .topnav a:hover {
   background-color: white; 
   color: #99B898; 
+  text-decoration: none;
 }
 
 .active {
   background-color: #ffffff; 
   color: #99B898; 
+}
+
+#symbol
+{
+  font-size: 1.5em; 
+  font-weight: bold; 
 }
 
 /*Bandeau d'accueil*/ 
@@ -67,7 +74,12 @@
 
 #logo
 {
-  max-width: 200px; 
+  max-width: 225px; 
+}
+
+#titlelic
+{
+  font-style: italic;
 }
 
 /*Enlève l'espacement entre jumbotron et bloc1*/ 
@@ -89,7 +101,9 @@
 {
   background-color: #F2DFDF; 
   font-style: italic;
-  padding: 5px 0; 
+  margin-top: 20px; 
+  padding-top: 20px; 
+  padding-bottom: 15px; 
 }
 
 /*Typographie*/
@@ -103,6 +117,7 @@ h4
 {
   color: black; 
   font-style: normal;
+  text-align: left;
 }
 
 /*Ajustements*/ 
