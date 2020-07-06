@@ -106,3 +106,12 @@ h4
 }
 
 /*Ajustements*/ 
+
+/*Footer*/ 
+
+.footer
+{
+  background-color: #99B898;
+  padding-top: 50px; 
+  margin-top: 50px; 
+}
