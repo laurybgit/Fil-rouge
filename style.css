@@ -99,6 +99,12 @@ h3
   font-weight: bolder;
 } 
 
+h4
+{
+  color: black; 
+  font-style: normal;
+}
+
 /*Ajustements*/ 
 #frigo 
 {
