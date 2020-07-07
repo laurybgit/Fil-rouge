@@ -1,36 +1,3 @@
-/*Blocs colorés*/ 
-.pink
-{
-  padding-top: 15px; 
-  padding-bottom: 5px; 
-  background-color: #FF847C; 
-  color: white; 
-}
-
-.lightpink
-{
-  background-color: #F2DFDF; 
-  margin-top: 20px; 
-  padding: 10px; 
-  font-style: normal;
-}
-
-/*Numbers*/ 
-.number
-{
-  font-size: 5em; 
-  color: #FF847C; 
-  font-weight: bolder; 
-  text-align: center;
-  border-top: solid 10px #F2DFDF; 
-}
-
-/*Typographie*/ 
-h3
-{
-  text-align: center; 
-}
-
 /* Base commune */ 
 body
 {
