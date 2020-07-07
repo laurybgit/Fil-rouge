@@ -1,4 +1,4 @@
-*
+body
 {
     margin: 0; 
     padding: 0; 
@@ -119,17 +119,6 @@ h4
   text-align: left;
 }
 
-/*P2*/ 
-.number
-{
-  font-size: 5em; 
-  color: #FF847C; 
-  font-weight: bolder; 
-  text-align: center;
-  border-top: solid 10px #F2DFDF; 
-}
-
-
 /*Ajustements*/ 
 /*P1*/
 #spectrum
@@ -142,16 +131,11 @@ h4
   min-width: 500px;
 }
 
-/*P2*/ 
-#p-10
-{
-  padding: 0 10px; 
-}
-
 /*Footer*/ 
 .footer
 {
   background-color: #99B898;
   padding-top: 50px; 
-  margin-top: 50px; 
+  margin-top: 50px;
 }
+

@@ -1,0 +1,95 @@
+/*Blocs colorés*/ 
+.pink
+{
+  padding-top: 15px; 
+  padding-bottom: 5px; 
+  background-color: #FF847C; 
+  color: white; 
+}
+
+.lightpink
+{
+  background-color: #F2DFDF; 
+  margin-top: 20px; 
+  padding: 10px; 
+  font-style: normal;
+}
+
+/*Numbers*/ 
+.number
+{
+  font-size: 5em; 
+  color: #FF847C; 
+  font-weight: bolder; 
+  text-align: center;
+  border-top: solid 10px #F2DFDF; 
+}
+
+/* Base commune */ 
+body
+{
+    margin: 0; 
+    padding: 0; 
+    text-align: justify;
+}
+
+/* Nav*/ 
+/* Nav mobile*/ 
+.mobile-container {
+  max-width: 500px;
+  margin: auto;
+  background-color: #ffffff; 
+  height: 500px;
+  color: #99B898; 
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #ffffff; 
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: #000000; 
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: #ffffff;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: white; 
+  color: #99B898; 
+  text-decoration: none;
+}
+
+.active {
+  background-color: #ffffff; 
+  color: #99B898; 
+}
+
+#symbol
+{
+  font-size: 1.5em; 
+  font-weight: bold; 
+}
+/* Footer*/ 
+.footer
+{
+  background-color: #99B898;
+  padding-top: 50px; 
+  margin-top: 50px;
+}
