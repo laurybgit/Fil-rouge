@@ -6,7 +6,6 @@ body
 }
 
 /* Nav*/ 
-
 /* Nav mobile*/ 
 .mobile-container {
   max-width: 500px;
@@ -75,7 +74,7 @@ body
   max-width: 225px; 
 }
 
-#titlelic
+.italic
 {
   font-style: italic;
 }
@@ -105,11 +104,34 @@ body
 }
 
 /*Typographie*/
-/*P1*/ 
+h1
+{
+  font-family: 'Anton', sans-serif;
+  text-align: left; 
+}
+
+.titre2
+{
+  font-size: 2em; 
+}
+
+#p2
+{
+  font-family: 'Anton', sans-serif;
+  font-size: 2em; 
+}
+
+h2
+{
+  font-family: 'Anton', sans-serif; 
+  text-align: left;
+}
+
 h3
 {
   color: #99B898; 
   font-weight: bolder;
+  font-family: 'Anton', sans-serif; 
 } 
 
 h4
@@ -119,6 +141,21 @@ h4
   text-align: left;
 }
 
+.line
+{
+  background-color: #F2DFDF; 
+}
+
+.gras
+{
+  font-weight: bolder; 
+}
+
+p
+{
+  font-family: 'Ubuntu', sans-serif;
+  text-align: justify;
+}
 /*Ajustements*/ 
 /*P1*/
 #spectrum
