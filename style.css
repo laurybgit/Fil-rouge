@@ -101,7 +101,7 @@ color: black;
 
 /* Nav mobile*/ 
 .mobile-container {
-  max-width: 500px;
+  max-width: 480px;
   margin: auto;
   background-color: #ffffff; 
   height: 500px;
