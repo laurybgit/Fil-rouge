@@ -1,3 +1,19 @@
+#btn
+{
+  background-color: #FF847C; 
+}
+
+#btn:hover
+{
+  background-color: #F2DFDF; 
+}
+
+#card
+{
+  max-width: 400px;
+}
+
+
 /*Ajustements*/
 
 #quote
@@ -16,10 +32,10 @@ body
 /* Nav*/ 
 /* Nav mobile*/ 
 .mobile-container {
-  max-width: 500px;
+  max-width: 300px;
   margin: auto;
   background-color: #ffffff; 
-  height: 500px;
+  max-height: 300px;
   color: #99B898; 
   border-radius: 10px;
 }

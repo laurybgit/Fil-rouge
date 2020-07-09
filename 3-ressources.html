@@ -8,10 +8,13 @@
     <!--Mon CSS-->
     <link rel="stylesheet" href="p3.css">
 
+    <!--CSS du burger-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-  <title>Projet Autos</title>
+  <title>Ressources</title>
   </head>
   <body>
   <div class="container-fluid">
@@ -23,11 +26,11 @@
     <nav class="navbar navbar-dark justify-content-between">
       <div>Logo et titre</div>
         <ul class="nav">
-          <li class="nav-item"><a class="nav-link active" href="#">Accueil</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Comprendre</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Ressources</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">À propos</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contact</a> </li>
+          <li class="nav-item"><a class="nav-link active" href="1-index.html">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="2-comprendre.html">Comprendre</a></li>
+          <li class="nav-item"><a class="nav-link" href="3-ressources.html">Ressources</a></li>
+          <li class="nav-item"><a class="nav-link" href="4-apropos.html">À propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="5-contact.html">Contact</a> </li>
         </ul>  
     </nav>            
   </div>  
@@ -36,11 +39,11 @@
   <div class="topnav d-block d-sm-none fixed-top">
     <a href="" class="active" id="symbol">∞</a>
     <div id="myLinks">
-      <a href="">Accueil</a>
-      <a href="">Comprendre</a>
-      <a href="">Ressources</a>
-      <a href="">À propos</a>
-      <a href="">Contact</a>
+      <a href="1-index.html">Accueil</a>
+      <a href="2-comprendre.html">Comprendre</a>
+      <a href="3-ressources.html">Ressources</a>
+      <a href="4-apropos.html">À propos</a>
+      <a href="5-contact.html">Contact</a>
     </div>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
@@ -49,7 +52,7 @@
     
   <div class="container-fluid mt-5">
     <div class="row mt-5">
-    <div class="col-12">
+    <div class="col-12 mt-2">
       <h1>Ressources</h1>
     </div>
     </div>
@@ -57,7 +60,7 @@
 
 <!--Vidéos-->
 <section>
-  <div class="container-fluid">
+  <div class="container-fluid mt-5">
   <div class="row justify-content-center">
     <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12 mt-3">
       <div class="embed-responsive embed-responsive-16by9">
@@ -101,48 +104,53 @@
 
 <!--Cards-->
 <div class="container-fluid border-top">
-<div class="row justify-content-center mt-5">
+<div class="row justify-content-center">
 
-<div class="col-4">
+<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 mt-5">
 <div class="card">
-  <img src="..." class="card-img-top" alt="...">
+  <a href="https://www.netflix.com/fr/title/81054700" target="_blank">
+  <img src="img/hannah.jpg" class="card-img-top" alt="Hannah Gadsby"></a>
   <div class="card-body">
     <h5 class="card-title">Hannah Gadsby, comédienne</h5>
     <p class="card-text">"Quand il s'agit d'exprimer mes idées à voix haute, c'est terrible. Le discours m'a toujours paru être un cadre exigu et inapte
       à traduire ma vie intérieure. J'ai toujours compris davantage que ce je suis capable de communiquer. 
     </p>
-    <a href="#" class="btn btn-primary">Voir son spectacle Douglas sur Netflix</a>
+    <p>Hannah Gadsby s'exprime particulièrement bien par l'humour et la scène, grâce à ses expressions imagées et sa maîtrise du langage.</p>
+    <a href="https://www.netflix.com/fr/title/81054700" target="_blank" class="btn" id="btn">Voir son spectacle Douglas sur Netflix</a>
   </div>
 </div>
 </div>
 
-<div class="col-4">
+<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 mt-5">
 <div class="card">
-  <img src="..." class="card-img-top" alt="...">
+  <a href="https://livre.fnac.com/a14053630/Steve-Silberman-NeuroTribus" target="_blank">
+  <img src="/Fil-Rouge/img/neurotribus.jpg" class="card-img-top" alt="Neurotribus"></a>
   <div class="card-body">
     <h5 class="card-title">Neurotribus, de Steve Silberman</h5>
     <p class="card-text">Ce livre part dans une passionnante enquête sur l'histoire de l'autisme. À la base, Steve Silberman, journaliste, part en croisière
       avec Larry Page (co-fondateur de Google) afin de l'interviewer lui et son équipe. Il découvre que dans la Silicon Valley, nombre d'ingénieur·e·s et 
-      informaticien·ne·s ont des enfants autistes. D'ailleurs, ces personnes elles-mêmes ont manifestement des traits autistiques ! </p>
-    <p>Il s'interroge alors sur ces différents degrés d'autisme, sur la soi-disant épidémie d'autisme de la Silicon Valley, et se plonge dans une quête 
-      d'informations qui a permis de produire le livre le plus complet à ce jour sur l'histoire de l'autisme. Il aborde enfin la notion de neurodiversité et 
-      d'acceptation des troubles cognitifs et mentaux, et du handicap en général. 
-    </p>
-    <a href="#" class="btn btn-primary">Découvrir le livre</a>
+      informaticien·ne·s ont des enfants autistes. D'ailleurs, ces personnes elles-mêmes ont manifestement des traits autistiques !</p> 
+      <p>Il se plonge alors dans une quête 
+      d'informations qui a permis de produire le livre le plus complet à ce jour sur l'histoire de l'autisme, qui interroge la notion de neurodiversité et 
+      l'acceptation des troubles cognitifs et mentaux. </p>
+    <a href="https://livre.fnac.com/a14053630/Steve-Silberman-NeuroTribus" target="_blank" class="btn" id="btn">Découvrir le livre</a>
   </div>
 </div>
 </div>
 
-<div class="col-4">
+<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 mt-5">
 <div class="card">
-  <img src="..." class="card-img-top" alt="...">
+  <a href="https://www.babelio.com/livres/Dachez-La-difference-invisible/865746" target="_blank">
+  <img src="/Fil-Rouge/img/difference.webp" class="card-img-top" alt="Julie Dachez"></a>
   <div class="card-body">
     <h5 class="card-title">La différence invisible, de Julie Dachez</h5>
     <p class="card-text">La différence invisible suit le parcours de Marguerite, qui, à 27 ans, ne se sent pas comme les autres. Elle a passé une grande 
-      partie de sa vie à apprendre à paraître comme eux, mais se sent comme un alien qui aurait atterri sur une autre planète. Elle découvre qu'elle est autiste
-      et peut petit à petit reprendre une vie épanouissante. Le livre est intéressant pour découvrir le phénomène de "masking autistique" ou encore de "scripting".
-    </p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+      partie de sa vie à apprendre à paraître comme eux, mais se sent comme un alien qui aurait atterri sur une autre planète. Elle va alors découvrir qu'elle est autiste
+      et pourra petit à petit se reconstruire et se trouver elle-même. </p>
+    <p>Le livre est aussi intéressant pour découvrir le phénomène de camouflage ou encore de "scripting" (fait de 
+      préparer mentalement ses discours et de les répéter). Il montre aussi les conséquences d'un diagnostic tardif, tout cela sous forme d'une bande-dessinée
+    accessible à tous et à toutes. </p>
+    <a href="https://www.babelio.com/livres/Dachez-La-difference-invisible/865746" target="_blank" class="btn" id="btn">Lire</a>
   </div>
 </div>
 </div>
@@ -151,9 +159,10 @@
 
 <div class="row justify-content-center mt-5">
 
-  <div class="col-4">
+  <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
   <div class="card">
-    <img src="..." class="card-img-top" alt="...">
+    <a href="https://youtu.be/SyPNukr_Bt4" target="_blank">
+    <img src="/Fil-Rouge/img/rachel.jpg" class="card-img-top" alt="Rachel documentaire"></a>
     <div class="card-body">
       <h5 class="card-title">Rachel : l'autisme à l'épreuve de la justice</h5>
       <p class="card-text">Rachel élève seule ses trois enfants. Elle réalise que deux d'entre eux ont des comportements atypiques (l'autre a déjà
@@ -161,22 +170,23 @@
         ne se passera pas comme prévu : elle est rapidement jugée "maltraitante" et le diagnostic de ses enfants, qui a pourtant été posé, est constamment
         remis en question. Ses trois enfants sont aujourd'hui placés en foyer depuis plusieurs années et Rachel se bat pour les récupérer. 
       </p>
-      <a href="#" class="btn btn-primary">Voir le documentaire</a>
+      <a href="https://youtu.be/SyPNukr_Bt4" target="_blank" class="btn" id="btn">Voir le documentaire</a>
     </div>
   </div>
   </div>
   
-  <div class="col-4">
+  <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
   <div class="card">
-    <img src="..." class="card-img-top" alt="...">
+    <a href="https://www.salon.com/2020/07/06/young-black-autistic-and-imprisoned-matthew-rushins-story-is-sadly-not-unique/" target="_blank">
+    <img src="img/matthew.webp" class="card-img-top" alt="Matthew Rushin"></a>
     <div class="card-body">
-      <h5 class="card-title">Free Matthew Rushin !</h5>
+      <h5 class="card-title">Free Matthew Rushin</h5>
       <p class="card-text">Matthew Rushin, jeune homme autiste américain, a été inculpé pour homicide volontaire suite à un accident de voiture. Visiblement en crise 
         lorsque l'accident a eu lieu, il n'a jamais eu l'intention de tuer volontairement. Ce qui se joue ici, c'est évidemment le refus de croire en un 
-        diagnostic, mais aussi le racisme du système judiciaire. Cette affaire a conduit à lancer le hashtag #BlackAutisticLivesMatter en référence au mouvement
-        Black Lives Matter. 
-      </p>
-      <a href="#" class="btn btn-primary">Lire l'article</a>
+        diagnostic, mais aussi le racisme du système judiciaire.</p>
+        <p> Cette affaire a conduit à lancer le hashtag #BlackAutisticLivesMatter en référence au mouvement Black Lives Matter. </p>
+      <a href="https://www.salon.com/2020/07/06/young-black-autistic-and-imprisoned-matthew-rushins-story-is-sadly-not-unique/" target="_blank" 
+      class="btn" id="btn">Lire l'article</a>
     </div>
   </div>
   </div>
