@@ -22,20 +22,84 @@
 }
 
 /* Base commune */ 
+/*Typographie*/ 
+h1
+{
+  font-family: 'Anton', sans-serif;
+  text-align: center; 
+  color: #99B898;
+}
+
+h2
+{
+  font-family: 'Anton', sans-serif; 
+  text-align: left;
+}
+
+h3
+{
+  color: black; 
+  font-family: 'Anton', sans-serif; 
+  text-align: center;
+} 
+
+h4
+{
+  color: black; 
+  font-style: normal;
+  text-align: left;
+  font-weight: bolder;
+  font-family: 'Anton', sans-serif;
+}
+
+h5
+{
+  color: #99B898; 
+  font-weight: bolder;
+  font-family: 'Anton', sans-serif;
+}
+
+.line
+{
+  background-color: #F2DFDF; 
+}
+
+.gras
+{
+  font-weight: bolder; 
+}
+
+/*Base commune*/ 
 body
 {
     margin: 0; 
     padding: 0; 
     text-align: justify;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p
+{
+  text-align: justify;
 }
 
 /* Nav*/ 
+.nav-link
+{
+color: black; 
+}
+
+.nav-link:hover
+{
+  color: #99B898; 
+}
+
 /* Nav mobile*/ 
 .mobile-container {
-  max-width: 300px;
+  max-width: 500px;
   margin: auto;
   background-color: #ffffff; 
-  max-height: 300px;
+  height: 500px;
   color: #99B898; 
   border-radius: 10px;
 }
@@ -82,7 +146,8 @@ body
   font-size: 1.5em; 
   font-weight: bold; 
 }
-/* Footer*/ 
+
+/*Footer*/ 
 .footer
 {
   background-color: #99B898;
