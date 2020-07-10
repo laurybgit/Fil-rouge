@@ -16,6 +16,18 @@
 
 /*Ajustements*/
 
+.link
+{
+  color: black; 
+  text-decoration: none; 
+}
+
+.link:hover
+{
+  color: #99B898;
+  text-decoration: none; 
+}
+
 #quote
 {
   min-width: 100px; 

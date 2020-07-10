@@ -80,6 +80,17 @@ h4
   font-weight: bolder; 
 }
 
+.link
+{
+  color: black; 
+  text-decoration: none; 
+}
+
+.link:hover
+{
+  color: #99B898;
+  text-decoration: none; 
+}
 
 /*Base commune*/ 
 body

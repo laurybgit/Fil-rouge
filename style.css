@@ -66,7 +66,18 @@ p
   text-align: justify;
 }
 
-/*Ajustements*/ 
+/*Ajustements*/
+.link
+{
+  color: black; 
+  text-decoration: none; 
+}
+
+.link:hover
+{
+  color: #99B898;
+  text-decoration: none; 
+}
 
 /*Base commune*/ 
 
