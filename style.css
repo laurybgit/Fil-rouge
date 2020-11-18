@@ -1,10 +1,18 @@
+/* Attention : ce CSS est vieux et mériterait d'être revu */ 
+
+/* ajout coloration lien a dans la nav */ 
+
+div > a{
+  text-decoration: none;
+  color: black; 
+}
 
 /*Blocs colorés*/ 
 .pink
 {
   padding-top: 15px; 
   padding-bottom: 5px; 
-  background-color: #FF847C; 
+  background-color: --rose; 
   color: white; 
 }
 
