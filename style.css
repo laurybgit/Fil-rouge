@@ -1,12 +1,5 @@
 /* Attention : ce CSS est vieux et mériterait d'être revu */ 
 
-/* ajout coloration lien a dans la nav */ 
-
-div > a{
-  text-decoration: none;
-  color: black; 
-}
-
 /*Blocs colorés*/ 
 .pink
 {
@@ -109,6 +102,15 @@ color: black;
   color: #99B898; 
 }
 
+/* ajout coloration lien a dans la nav */ 
+div > a{
+  text-decoration: none;
+  color: #99B898; 
+}
+
+div > a:hover{
+  color: black; 
+}
 
 /* Nav mobile*/ 
 .mobile-container {
